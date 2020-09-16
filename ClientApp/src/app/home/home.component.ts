@@ -12,7 +12,7 @@ export class HomeComponent {
       this.Students = result;
 
     }, error => console.error(error));
-  } wqq
+  }
 
 }
 
