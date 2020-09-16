@@ -1,0 +1,35 @@
+<table *ngif="Students && Students.length > 0">
+  <thead>
+    <tr>
+    
+
+         <th style="border:1px">Serial</th>
+        <th style="border:1px"> Id </th>
+        <th style="border:1px">Name</th>
+          <th style="border:1px">RollNumber</th>
+      </tr>
+  </thead>
+
+  <tbody>
+    <tr *ngfor="let student ofstudents; let i = index">
+      <td style="border:1px">{{i+1}}</td>
+      <td style="border:1px">{{Student.Id}}</td>
+      <td style="border:1px">{{Student.Name}}</td>
+      <td>{{Student.RollNumber}}</td>
+
+    </tr>
+  </tbody>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</table>
